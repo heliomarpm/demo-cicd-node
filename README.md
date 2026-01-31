@@ -28,3 +28,9 @@ npm install
 ```bash
 npm test
 ```
+
+4. Create a new branch
+
+```bash
+git checkout -b feature/foo
+```
