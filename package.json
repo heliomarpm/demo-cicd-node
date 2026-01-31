@@ -1,0 +1,12 @@
+{
+  "name": "demo-cicd-node",
+  "version": "0.0.1",
+  "description": "Demostration of CI/CD with Node.js",
+  "license": "ISC",
+  "author": "Heliomar P. Marques",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
