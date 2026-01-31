@@ -1,4 +1,4 @@
-name: "2. Auto PR"
+name: "2. Create/Update PR"
 description: "Automatically create a pull request when the CI workflow succeeds and the head branch is not 'main'"
 
 on:
