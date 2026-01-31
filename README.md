@@ -8,6 +8,23 @@ This is a demostration of CI/CD with Node.js
 - Git
 - GitHub
 
+## Structure
+
+```
+└── 📁demo-cicd-node
+    └── 📁.github
+        └── 📁workflows
+            ├── ci.yml
+    └── 📁.qodo
+        └── 📁agents
+        └── 📁workflows
+    └── 📁test
+        ├── sample.test.js
+    ├── index.js
+    ├── package.json
+    └── README.md
+```
+
 ## Installation
 
 1. Clone the repository
