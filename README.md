@@ -8,6 +8,8 @@ This is a demostration of CI/CD with Node.js
 - Git
 - GitHub
 
+---
+
 ## Structure
 
 ```
@@ -24,7 +26,6 @@ This is a demostration of CI/CD with Node.js
     ├── package.json
     └── README.md
 ```
-
 
 ## Installation
 
