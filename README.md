@@ -55,3 +55,10 @@ npm test
 ```bash
 git checkout -b feature/foo
 ```
+
+5. Commit the changes
+
+```bash
+git add .
+git commit -m "feat: add foo"
+```
