@@ -8,6 +8,23 @@ This is a demostration of CI/CD with Node.js
 - Git
 - GitHub
 
+## Structure
+
+```
+└── 📁demo-cicd-node
+    └── 📁.github
+        └── 📁workflows
+            ├── ci.yml
+    └── 📁.qodo
+        └── 📁agents
+        └── 📁workflows
+    └── 📁test
+        ├── sample.test.js
+    ├── index.js
+    ├── package.json
+    └── README.md
+```
+
 ## Installation
 
 1. Clone the repository
@@ -33,10 +50,4 @@ npm test
 
 ```bash
 git checkout -b feature/foo
-```
-
-5. Commit changes
-
-```bash
-git commit -m "Add feature/foo"
 ```
