@@ -6,7 +6,11 @@ on:
     workflows: ["1. CI"]
     types:
       - completed
-
+  push:
+    branches:
+      - feature/**
+      - develop
+      
 jobs:
   auto-pr:
     if: >
