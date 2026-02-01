@@ -2,7 +2,6 @@
 
 This is a demostration of CI/CD with Node.js
 
-
 ## Prerequisites
 
 - Node.js
@@ -14,7 +13,7 @@ This is a demostration of CI/CD with Node.js
 
 ## Structure
 
-```
+```shell
 └── 📁demo-cicd-node
     └── 📁.github
         └── 📁workflows
