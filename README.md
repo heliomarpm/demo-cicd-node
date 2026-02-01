@@ -12,7 +12,7 @@ This is a demostration of CI/CD with Node.js
 
 ## Structure
 
-```
+```bash
 └── 📁demo-cicd-node
     └── 📁.github
         └── 📁workflows
