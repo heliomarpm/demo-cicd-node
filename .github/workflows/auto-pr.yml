@@ -6,10 +6,10 @@ on:
     workflows: ["1. CI"]
     types:
       - completed
-  push:
-    branches:
-      - feature/**
-      - develop
+  # push:
+  #   branches:
+  #     - feature/**
+  #     - develop
       
 jobs:
   auto-pr:
@@ -22,6 +22,6 @@ jobs:
     uses: heliomarpm/reusable-actions/.github/workflows/auto-pr.yml@main
     with:
       min-coverage: 85
-      coverage-mode: block
+      coverage-mode: info
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,10 +3,10 @@ description: "Automated CI for the demo-cicd-node project"
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [develop, main]
   push:
     branches: [develop, feature/**]
+  pull_request:
+    branches: [develop, main]
 
 jobs:
   ci:
