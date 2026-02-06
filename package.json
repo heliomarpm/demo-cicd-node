@@ -1,6 +1,6 @@
 {
   "name": "demo-cicd-node",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Demostration of CI/CD with Node.js",
   "license": "ISC",
   "author": "Heliomar P. Marques",
