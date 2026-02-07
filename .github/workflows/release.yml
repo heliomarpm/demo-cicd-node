@@ -1,4 +1,4 @@
-name: Release
+name: "3. Release"
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
 jobs:
   release:
     uses: heliomarpm/reusable-actions/.github/workflows/release.yml@main
+    secrets:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
     with:
       release_strategy: "release-branch"
       semantic_release_debug_mode: true
       semantic_release_dry_run: false
       strict_conventional_commits: false
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
