@@ -9,7 +9,8 @@ jobs:
   release:
     uses: heliomarpm/reusable-actions/.github/workflows/release.yml@main
     with:
+      semantic_release_debug_mode: true
       semantic_release_dry_run: true
-      strict_conventional_commits: true
+      strict_conventional_commits: false
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
