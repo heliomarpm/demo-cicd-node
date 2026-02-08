@@ -20,8 +20,9 @@ jobs:
       }}
 
     uses: heliomarpm/reusable-actions/.github/workflows/auto-pr.yml@main
+    secrets:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     with:
       min-coverage: 85
       coverage-mode: info
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      promotion_strategy: "release-branch"
